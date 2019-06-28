@@ -1,0 +1,12 @@
+{
+  "name": "JIRA redirect",
+  "description": "Yes",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "*://blacklinegps.atlassian.net/*",
+    "webRequestBlocking"
+  ]
+}
