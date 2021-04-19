@@ -8,7 +8,7 @@ chrome.webRequest.onBeforeRequest.addListener(
         };
     },
     {
-        urls: ["*://blacklinegps.atlassian.net/*"],
+        urls: ["*://blacklinegps.atlassian.net/browse/*"],
         types: ["main_frame"]
     },
     ["blocking"]

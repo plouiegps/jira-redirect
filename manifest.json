@@ -6,7 +6,7 @@
   "background": {"scripts":["background.js"]},
   "permissions": [
     "webRequest",
-    "*://blacklinegps.atlassian.net/*",
+    "*://blacklinegps.atlassian.net/browse/*",
     "webRequestBlocking"
   ]
 }
