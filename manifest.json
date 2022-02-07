@@ -8,5 +8,12 @@
     "webRequest",
     "*://blacklinegps.atlassian.net/browse/*",
     "webRequestBlocking"
-  ]
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://blacklinegps.atlassian.net/*"],
+      "js": ["jquery-3.6.0.min.js", "removedivs.js"]
+    }
+  ],
+  "run_at": "document_end"
 }
